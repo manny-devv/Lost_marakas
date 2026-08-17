@@ -1,39 +1,128 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    justify-content: center;
-}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    color: #222;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 70, 150, 0.25),
+      rgba(0, 70, 150, 0.25)
+    ),
+    url("images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
 }
 
-img {
-    max-width: 100%;
-    display: block;
+.link-page {
+  width: 100%;
+  max-width: 600px;
+
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 40px 22px;
+
+  text-align: center;
+
+  background: rgba(0, 90, 180, 0.18);
 }
 
-a {
-    text-decoration: underline;
-    color: blue;
+.profile-picture {
+  width: 105px;
+  height: 105px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
-ul {
-    list-style: none;
+h1 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+
+  font-size: 30px;
+  font-weight: 500;
 }
 
-button {
-    cursor: pointer;
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 35px;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.link-button {
+  width: 100%;
+
+  padding: 20px;
+
+  border: 1.5px solid white;
+  border-radius: 18px;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  background: rgba(0, 80, 170, 0.25);
+
+  backdrop-filter: blur(4px);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.link-button:hover {
+  transform: translateY(-3px);
+
+  background: rgba(255, 255, 255, 0.18);
+}
+
+footer {
+  margin-top: 35px;
+
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+
+  opacity: 0.7;
+}
+
+/* Phones */
+
+@media (max-width: 500px) {
+
+  .link-page {
+    padding: 32px 18px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .link-button {
+    padding: 18px;
+    font-size: 16px;
+  }
+
 }
