@@ -83,6 +83,10 @@ h1 {
   letter-spacing: 2px;
 }
 
+.album-heading {
+  white-space: nowrap;
+}
+
 .email {
   color: black;
 
