@@ -11,16 +11,7 @@ body {
 body {
   font-family: Georgia, "Times New Roman", serif;
 
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
-    ),
-    url("../images/band_concert.JPG");
-
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: linear-gradient(180deg, #16324f 0%, #2f5d7a 100%);
 }
 
 .epk {
@@ -46,7 +37,7 @@ body {
 }
 
 .epk-card {
-  width: min(760px, 100%);
+  width: min(1100px, 100%);
 
   margin: 0 auto;
 
