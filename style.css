@@ -193,6 +193,21 @@ body {
   transition: transform 0.2s ease;
 }
 
+.socials img.spotify-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.socials img.bandcamp-logo {
+  width: 60px;
+  height: 28px;
+}
+
+.socials img.apple-logo {
+  width: 48px;
+  height: 28px;
+}
+
 .socials img:hover {
   transform: scale(1.12);
 }
@@ -232,7 +247,7 @@ body {
 }
 
 .mobile-menu a {
-  color: black;
+  color: blue;
 
   text-decoration: none;
 
