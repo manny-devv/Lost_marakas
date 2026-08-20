@@ -215,6 +215,12 @@ h1 {
     font-size: 19px;
   }
 
+  .album-heading {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+  }
+
   .press-grid {
     grid-template-columns: 1fr;
   }
